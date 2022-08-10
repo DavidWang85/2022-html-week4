@@ -1,0 +1,17 @@
+.sunglasses-banner{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    img{
+        width: 50%;
+    }
+}
+.products-item-sunglasses{
+    width: 32%;
+    @include pad{
+        width: 48.2%;
+    }
+    @include mb{
+        width: 100%;
+    }
+}

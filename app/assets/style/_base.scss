@@ -1,3 +1,8 @@
+body {
+    font-family: $font-noto, $font-roboto, -apple-system, "Segoe UI", "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
 img {
     vertical-align: middle;
 }
@@ -6,21 +11,29 @@ a {
     text-decoration: none;
 }
 
-body {
-    line-height: 1.5;
-}
-
 .container {
     max-width: 1320px;
     padding-left: 12px;
     padding-right: 12px;
     margin: 0 auto;
-
     @include pad {
         max-width: 720px;
     }
-
     @include mb {
+        max-width: 373px;
+    }
+}
+.container-sm{
+    max-width: 636px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+    @include pad{
+        max-width: 576px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    @include mb{
         max-width: 373px;
     }
 }
@@ -61,4 +74,22 @@ body {
 }
 .position-absolute {
     position: absolute;
+}
+//空間佈局
+.part{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    @include mb {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+.title-h2 {
+    text-align: center;
+    font-size: $font-size-md;
+    color: $color-primary-0300;
+    margin-bottom: 48px;
+    @include mb {
+        font-size: $h4-font-size;
+    }
 }

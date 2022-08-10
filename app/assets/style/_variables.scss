@@ -5,7 +5,6 @@ $color-secondary: #FBF2F2; //粉
 $color-gray-7070: #707070; //灰色
 $color-gray-0029: #00000029;
 $color-gray-E2E6: #DEE2E6;
-$color-gray-F2F2: #F2F2F2;
 $color-gray-DCDC: #DCDCDC;
 $color-gray-0020: #00000020;
 $color-light: #FFFFFF;
@@ -18,8 +17,13 @@ $color-brown-5929: #B75929;
 $color-blue-D4DA: #CED4DA;
 
 // 字體
+$font-noto: 'Noto Sans TC', sans-serif;
+$font-roboto: 'Roboto', sans-serif;
 $font-size-base: 1rem; //16px
 $font-size-sm: $font-size-base * 0.875; //14px
+$font-size-regular: $font-size-base * 2; //32px
+$font-size-md: $font-size-base * 2.25; //36px
+$font-size-lg: $font-size-base * 2.625; //42px
 
 $h1-font-size: $font-size-base * 4; //64px
 $h2-font-size: $font-size-base * 3; //48px

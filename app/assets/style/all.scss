@@ -1,6 +1,9 @@
 @import "./variables"; // 變數
 @import "./cssreset"; // reset
 @import "./mixins"; // 響應式
-@import "./typography"; // 字體
 @import "./base"; // 全局
+@import "./typography"; // 字體
 @import "./layout"; //表頭表尾樣板
+@import "./index";  //首頁
+@import "./optical"; //光學眼鏡
+@import "./sunglasses"; //太陽眼鏡
